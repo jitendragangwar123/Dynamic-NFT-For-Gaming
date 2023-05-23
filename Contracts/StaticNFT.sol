@@ -16,5 +16,5 @@ contract StaticNFT is ERC721URIStorage{
             _setTokenURI(tokenId,tokenURI);
             _tokenIds.increment();
             return tokenId;
-        }    
-    }
+    }    
+}
