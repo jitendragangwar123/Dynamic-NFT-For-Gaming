@@ -17,10 +17,14 @@ async function AddNFT(){
         tokenId:'1',
         description:"He is a famous Shooting Game Character!"
     },[
-        {mood:'angry',stamina: 100, level:2 }
+        {
+            mood:'angry',
+            stamina: 100, 
+            level:2 
+        }
     ],collection.id)
 
-    console.log("Created NFT Successfully, ID:",nft);
+    console.log("Created NFT Successfully, ID: ",nft);
 }
 
 AddNFT()

@@ -48,7 +48,7 @@ async function run() {
         .setImage(data.image)
         .save()
 
-  console.log(`Current mood is : ${data.mood},stamina is : ${data.stamina} and level is : ${data.level} of Gordon Freeman!`)
+    console.log(`Current mood is : ${data.mood},stamina is : ${data.stamina} and level is : ${data.level} of Gordon Freeman!`)
   })
 }
 
