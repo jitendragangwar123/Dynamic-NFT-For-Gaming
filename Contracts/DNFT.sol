@@ -12,10 +12,10 @@ contract MyDNFT is ERC721 {
         baseuri = _baseuri;
     }
 
-    function mint(address to, uint256 tokenId) 
+    function mint(address _to, uint256 _tokenId) 
         public  
     {
-        _safeMint(to, tokenId);
+        _safeMint(_to, _tokenId);
     }
 
     function _baseURI() 
