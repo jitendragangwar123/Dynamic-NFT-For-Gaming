@@ -11,5 +11,8 @@
   "dependencies": {
     "@openzeppelin/contracts": "^4.9.0",
     "revise-sdk": "^0.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }

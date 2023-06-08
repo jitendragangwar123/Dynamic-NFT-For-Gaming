@@ -1,5 +1,5 @@
 const {Revise}= require("revise-sdk");
-const AUTH_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA5OTVkZTEwLTBiM2MtNDVkYi1hMTZkLWY2MGVlNTYxMDQ5ZSIsImtleSI6IjAzanJldnlpIiwiaWF0IjoxNjg0ODI2MDcxfQ.GuIGAqRpYCQUN4oEMsfr2iCjKyEMlsP89AG9M-ONOrI";
+const AUTH_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA5OTVkZTEwLTBiM2MtNDVkYi1hMTZkLWY2MGVlNTYxMDQ5ZSIsImtleSI6Ink2OGQxY3B6IiwiaWF0IjoxNjg2MDUwNzY1fQ.G9sUzkOsKz3iCFmN1VAoCUut70MFZuqOYNJZSM0whD8";
 
 const revise=new Revise({auth:AUTH_TOKEN});
 
@@ -7,7 +7,7 @@ async function AddNFT(){
     const collection =await revise.addCollection(
         {
             name:"Gaming Character",
-            uri:"jaygangwargamingcharactersforshootinggame99999998"
+            uri:"jaygangwargamingcharactersforshootinggame9999999888"
         }
     )
 
@@ -16,10 +16,10 @@ async function AddNFT(){
         name:"Gordon Freeman",
         tokenId:'1',
         description:"He is a famous Shooting Game Character!"
-    },[{mood:'angry'},{stamina: "100"},{level:"2"}],
+    },[{mood:'angry'},{stamina: "10"},{level:"1"}],
         collection.id
     );
     console.log("Created NFT Successfully, ID: ",nft);
 }
 
-AddNFT()
+AddNFT() 
