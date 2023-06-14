@@ -1,5 +1,5 @@
 # Dynamic-NFT-For-Gaming
-Dynamic NFT is the use case of Gaming.
+Dynamic NFT is the use case of online Gaming.
 
 ## To Build the Application
 ```shell
